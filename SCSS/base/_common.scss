@@ -1,0 +1,28 @@
+body {
+  font-family: "Fira Sans", serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  color: #111238;  
+  margin-bottom: 20px;
+}
