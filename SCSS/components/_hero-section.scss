@@ -1,4 +1,9 @@
 .hero {
+  padding-bottom: 36px;
+  background-color: #F2F3F6;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
   &-paragraph {
     margin-bottom: 29px;
     font-weight: 400;
@@ -6,6 +11,28 @@
     line-height: 140%;
     text-align: center;
     color: #111238;
+  }
+  &-list {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    &-item {
+      border: 1px solid #B2B2B2;
+      font-weight: 400;
+      font-size: 14px;
+      color: #B2B2B2; 
+      padding: 5px 10px;  
+      border-radius: 5px;   
+    }
+  }
+  &-title {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B2B2B2;  
+    text-align: center;
   }
 }
 .form {
@@ -16,8 +43,10 @@
   display: flex;
   align-items: center;
   gap: 35px;
-  border: 3px solid  red; //rgba(209, 209, 209, 0.1)
+  border-radius: 5px;
+  border: 1px solid  rgba(209, 209, 209, 0.1);
   &-wrapper {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
   }
@@ -29,6 +58,7 @@
     font-weight: 400;
     font-size: 16px;
     color: gray;
+    background-color: transparent;
   }
   &-button {
     padding: 15px 26px;
@@ -36,4 +66,8 @@
     border: none;
     background-color: #1A75E8;
   }
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
 }
